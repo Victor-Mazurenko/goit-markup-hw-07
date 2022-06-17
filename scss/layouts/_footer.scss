@@ -1,0 +1,123 @@
+footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer__container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__contacts {
+  margin-right: 70px;
+}
+
+.contacts-nav-footer {
+  margin: 0;
+  padding-inline-start: 0;
+}
+
+.contacts-nav-footer__navigation {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-color-text);
+}
+
+.contacts-nav-footer__mail-btn,
+.contacts-nav-footer__tel-btn {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.social-footer {
+  width: 206px;
+  height: 80px;
+}
+
+.social-footer__title {
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.social-footer__list {
+  display: flex;
+  padding-inline-start: 0;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  gap: 10px;
+}
+
+.social-footer__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
+}
+
+.social-footer__icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.form-footer {
+  margin-left: auto;
+}
+
+.form-footer__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.form-footer__subscribe {
+  display: flex;
+}
+
+.form-footer__email {
+  width: 360px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.form-footer__email-input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  padding-left: 16px;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  outline: transparent;
+}
